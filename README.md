@@ -1,6 +1,7 @@
 # fruitivy
 
 A platform to buy, sell, and give information about fruits and vegetables | Desktop
+![image](https://user-images.githubusercontent.com/79202858/189830942-da510187-444a-4c49-8a3d-5cdb74206fc9.png)
 
 ## fruitivy devs
 
