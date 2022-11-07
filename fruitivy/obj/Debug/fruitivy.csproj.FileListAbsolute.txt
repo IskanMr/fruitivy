@@ -1,0 +1,12 @@
+E:\Iskan\code\fruitivy\bin\Debug\fruitivy.exe.config
+E:\Iskan\code\fruitivy\bin\Debug\fruitivy.exe
+E:\Iskan\code\fruitivy\bin\Debug\fruitivy.pdb
+E:\Iskan\code\fruitivy\obj\Debug\fruitivy.csproj.AssemblyReference.cache
+E:\Iskan\code\fruitivy\obj\Debug\fruitivy.csproj.SuggestedBindingRedirects.cache
+E:\Iskan\code\fruitivy\obj\Debug\fruitivy.Properties.Resources.resources
+E:\Iskan\code\fruitivy\obj\Debug\fruitivy.csproj.GenerateResource.cache
+E:\Iskan\code\fruitivy\obj\Debug\fruitivy.csproj.CoreCompileInputs.cache
+E:\Iskan\code\fruitivy\obj\Debug\fruitivy.exe
+E:\Iskan\code\fruitivy\obj\Debug\fruitivy.pdb
+E:\Iskan\code\fruitivy\obj\Debug\WindowsFormsApp1.LoginForm.resources
+E:\Iskan\code\fruitivy\obj\Debug\fruitivy.SignUpForm.resources
