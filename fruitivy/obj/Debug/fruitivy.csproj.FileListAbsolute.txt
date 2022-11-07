@@ -8,3 +8,4 @@ E:\Iskan\code\fruitivy\obj\Debug\fruitivy.csproj.GenerateResource.cache
 E:\Iskan\code\fruitivy\obj\Debug\fruitivy.csproj.CoreCompileInputs.cache
 E:\Iskan\code\fruitivy\obj\Debug\fruitivy.exe
 E:\Iskan\code\fruitivy\obj\Debug\fruitivy.pdb
+E:\Iskan\code\fruitivy\obj\Debug\WindowsFormsApp1.LoginForm.resources
