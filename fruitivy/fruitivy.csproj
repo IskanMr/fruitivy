@@ -161,13 +161,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Views\DetailInformasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\DetailInformasi.Designer.cs">
+      <DependentUpon>DetailInformasi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\InformasiPage.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Views\InformasiPage.Designer.cs">
       <DependentUpon>InformasiPage.cs</DependentUpon>
     </Compile>
-    <Compile Include="Models\Informations.cs" />
+    <Compile Include="Models\Information.cs" />
+    <Compile Include="Views\InformationBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\InformationBox.Designer.cs">
+      <DependentUpon>InformationBox.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -182,8 +194,14 @@
     <Compile Include="Views\SignUpForm.Designer.cs">
       <DependentUpon>SignUpForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Views\DetailInformasi.resx">
+      <DependentUpon>DetailInformasi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\InformasiPage.resx">
       <DependentUpon>InformasiPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\InformationBox.resx">
+      <DependentUpon>InformationBox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>

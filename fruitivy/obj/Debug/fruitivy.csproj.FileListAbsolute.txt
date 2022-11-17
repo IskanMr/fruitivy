@@ -48,3 +48,5 @@ E:\Iskan\code\fruitivy\bin\Debug\System.Threading.Tasks.Extensions.xml
 E:\Iskan\code\fruitivy\obj\Debug\fruitivy.csproj.CopyComplete
 E:\Iskan\code\fruitivy\obj\Debug\fruitivy.InformasiPage.resources
 E:\Iskan\code\fruitivy\obj\Debug\fruitivy.LoginForm.resources
+E:\Iskan\code\fruitivy\obj\Debug\fruitivy.Views.DetailInformasi.resources
+E:\Iskan\code\fruitivy\obj\Debug\fruitivy.Views.InformationBox.resources
