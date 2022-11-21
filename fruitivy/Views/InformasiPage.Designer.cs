@@ -49,7 +49,6 @@
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "InformasiPage";
             this.Text = "Informasi";
-            this.Load += new System.EventHandler(this.InformasiPage_Load);
             this.ResumeLayout(false);
 
         }

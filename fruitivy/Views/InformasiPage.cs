@@ -13,6 +13,7 @@ namespace fruitivy
         public InformasiPage()
         {
             InitializeComponent();
+            GenerateDynamicUserControl();
         }
         private async Task<List<Information>> GetInfoList()
         {
@@ -55,16 +56,6 @@ namespace fruitivy
             InformationBox obj = (InformationBox)sender;
             DetailInformasi detailInformasi = new DetailInformasi(obj.Title, obj.Type, obj.Description);
             detailInformasi.Show();
-        }
-
-        private async void InformasiPage_Load(object sender, EventArgs e)
-        {
-            GenerateDynamicUserControl();
-        }
-
-        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+        }        
     }
 }
