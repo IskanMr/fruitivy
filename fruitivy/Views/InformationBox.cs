@@ -30,5 +30,10 @@ namespace fruitivy.Views
             DetailInformasi detailInformasi = new DetailInformasi(Title, Type, Description);
             detailInformasi.Show();
         }
+
+        private void InformationBox_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
