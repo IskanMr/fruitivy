@@ -18,13 +18,13 @@ namespace fruitivy.Views
         }
         private Image _img;
         private string _nama;
-        private string _harga;
-        private string _id;
+        private int _harga;
+        private int _id;
 
-        public Image Img { get { return _img; } set { _img = value} }
-        public string Nama { get { return _nama; } set { _nama = value; lblNama.Text = value} }
-        public string Harga { get { return _harga; } set { _harga = value; lblHarga.Text = value} }
-        public string Id { get { return _id;} set { _id =value;} }
+        public Image Img { get { return _img; } set { _img = value; } }
+        public string Nama { get { return _nama; } set { _nama = value; lblNama.Text = value; } }
+        public int Harga { get { return _harga; } set { _harga = value; lblHarga.Text = value.ToString(); } }
+        public int Id { get { return _id;} set { _id =value;} }
 
         private void lblEdit_Click(object sender, EventArgs e)
         {

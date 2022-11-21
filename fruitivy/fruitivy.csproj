@@ -185,6 +185,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Produk.cs" />
     <Compile Include="Views\DetailInformasi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -215,6 +216,18 @@
     </Compile>
     <Compile Include="Views\InformationBox.Designer.cs">
       <DependentUpon>InformationBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ItemBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\ItemBox.Designer.cs">
+      <DependentUpon>ItemBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ListItemPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ListItemPage.Designer.cs">
+      <DependentUpon>ListItemPage.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\LoginForm.cs">
       <SubType>Form</SubType>
@@ -248,6 +261,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\InformationBox.resx">
       <DependentUpon>InformationBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ItemBox.resx">
+      <DependentUpon>ItemBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ListItemPage.resx">
+      <DependentUpon>ListItemPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>

@@ -173,3 +173,5 @@ D:\Code\fruitivy\fruitivy\bin\Debug\System.Text.Encodings.Web.xml
 D:\Code\fruitivy\fruitivy\bin\Debug\System.Text.Json.xml
 D:\Code\fruitivy\fruitivy\bin\Debug\System.Threading.Channels.xml
 D:\Code\fruitivy\fruitivy\bin\Debug\System.ValueTuple.xml
+D:\Code\fruitivy\fruitivy\obj\Debug\fruitivy.Views.ItemBox.resources
+D:\Code\fruitivy\fruitivy\obj\Debug\fruitivy.Views.ListItemPage.resources

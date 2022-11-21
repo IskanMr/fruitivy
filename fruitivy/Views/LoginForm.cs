@@ -38,9 +38,9 @@ namespace fruitivy
 
                 if ((int)cmd.ExecuteScalar() == 1)
                 {
-                    // listItemUser = new ListItemUser();
-                    //listItemUser.Show();
-                    //this.Hide();
+                    ListItemPage listItemUser = new ListItemPage(5);
+                    listItemUser.Show();
+                    this.Hide();
                     MessageBox.Show("Login berhasil!");
                 }
                 else
