@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Npgsql;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,21 +18,17 @@ namespace fruitivy
             InitializeComponent();
         }
 
-        private void btnSignUp_Click(object sender, EventArgs e)
+        private NpgsqlConnection conn;
+        string connstring = "Host=localhost;Port=5432;Username=postgres;Password=fishman14;Database=FruitivyTest2;";
+        private string sqlQuery = "";
+        public static NpgsqlCommand cmd;
+
+        private void btnMasuk_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-                    }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
+        private void lblLogin_Click(object sender, EventArgs e)
         {
 
         }

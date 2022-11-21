@@ -68,6 +68,7 @@
             this.lblProduk.Size = new System.Drawing.Size(61, 17);
             this.lblProduk.TabIndex = 2;
             this.lblProduk.Text = "Produk";
+            this.lblProduk.Click += new System.EventHandler(this.lblProduk_Click);
             // 
             // lblInformasi
             // 

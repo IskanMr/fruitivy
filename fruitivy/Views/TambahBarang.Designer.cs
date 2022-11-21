@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.tbTambahPenggunaID = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.tbTambahNamaProduk = new System.Windows.Forms.TextBox();
@@ -59,34 +57,12 @@
             this.label4.TabIndex = 3;
             this.label4.Text = "Tambah Produk";
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label5.Location = new System.Drawing.Point(29, 105);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(101, 17);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "ID Pengguna";
-            // 
-            // tbTambahPenggunaID
-            // 
-            this.tbTambahPenggunaID.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tbTambahPenggunaID.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbTambahPenggunaID.Location = new System.Drawing.Point(182, 103);
-            this.tbTambahPenggunaID.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.tbTambahPenggunaID.Name = "tbTambahPenggunaID";
-            this.tbTambahPenggunaID.Size = new System.Drawing.Size(548, 24);
-            this.tbTambahPenggunaID.TabIndex = 5;
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label6.Location = new System.Drawing.Point(29, 155);
+            this.label6.Location = new System.Drawing.Point(31, 100);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(143, 18);
@@ -97,7 +73,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(28, 159);
+            this.label7.Location = new System.Drawing.Point(30, 104);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(765, 20);
@@ -109,8 +85,8 @@
             // 
             this.tbTambahNamaProduk.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tbTambahNamaProduk.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbTambahNamaProduk.Location = new System.Drawing.Point(182, 195);
-            this.tbTambahNamaProduk.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbTambahNamaProduk.Location = new System.Drawing.Point(184, 140);
+            this.tbTambahNamaProduk.Margin = new System.Windows.Forms.Padding(2);
             this.tbTambahNamaProduk.Name = "tbTambahNamaProduk";
             this.tbTambahNamaProduk.Size = new System.Drawing.Size(548, 24);
             this.tbTambahNamaProduk.TabIndex = 9;
@@ -120,7 +96,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label8.Location = new System.Drawing.Point(29, 197);
+            this.label8.Location = new System.Drawing.Point(31, 142);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(107, 17);
@@ -131,8 +107,8 @@
             // 
             this.tbTambahHargaProduk.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tbTambahHargaProduk.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbTambahHargaProduk.Location = new System.Drawing.Point(182, 239);
-            this.tbTambahHargaProduk.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbTambahHargaProduk.Location = new System.Drawing.Point(184, 184);
+            this.tbTambahHargaProduk.Margin = new System.Windows.Forms.Padding(2);
             this.tbTambahHargaProduk.Name = "tbTambahHargaProduk";
             this.tbTambahHargaProduk.Size = new System.Drawing.Size(548, 24);
             this.tbTambahHargaProduk.TabIndex = 11;
@@ -142,7 +118,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label9.Location = new System.Drawing.Point(29, 240);
+            this.label9.Location = new System.Drawing.Point(31, 185);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(109, 17);
@@ -153,8 +129,8 @@
             // 
             this.tbTambahDeskripsiProduk.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tbTambahDeskripsiProduk.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbTambahDeskripsiProduk.Location = new System.Drawing.Point(182, 284);
-            this.tbTambahDeskripsiProduk.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbTambahDeskripsiProduk.Location = new System.Drawing.Point(184, 229);
+            this.tbTambahDeskripsiProduk.Margin = new System.Windows.Forms.Padding(2);
             this.tbTambahDeskripsiProduk.Multiline = true;
             this.tbTambahDeskripsiProduk.Name = "tbTambahDeskripsiProduk";
             this.tbTambahDeskripsiProduk.Size = new System.Drawing.Size(548, 48);
@@ -165,7 +141,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label10.Location = new System.Drawing.Point(29, 285);
+            this.label10.Location = new System.Drawing.Point(31, 230);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(133, 17);
@@ -178,8 +154,8 @@
             this.btnUnggah.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnUnggah.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUnggah.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnUnggah.Location = new System.Drawing.Point(601, 442);
-            this.btnUnggah.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnUnggah.Location = new System.Drawing.Point(603, 387);
+            this.btnUnggah.Margin = new System.Windows.Forms.Padding(2);
             this.btnUnggah.Name = "btnUnggah";
             this.btnUnggah.Size = new System.Drawing.Size(123, 31);
             this.btnUnggah.TabIndex = 14;
@@ -195,7 +171,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(766, 46);
             this.panel1.TabIndex = 15;
@@ -242,7 +218,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(766, 504);
+            this.ClientSize = new System.Drawing.Size(766, 445);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnUnggah);
             this.Controls.Add(this.tbTambahDeskripsiProduk);
@@ -252,11 +228,9 @@
             this.Controls.Add(this.tbTambahNamaProduk);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.tbTambahPenggunaID);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label7);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "TambahBarang";
             this.Text = "TambahBarang";
             this.Load += new System.EventHandler(this.TambahBarang_Load_1);
@@ -269,8 +243,6 @@
 
         #endregion
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox tbTambahPenggunaID;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox tbTambahNamaProduk;

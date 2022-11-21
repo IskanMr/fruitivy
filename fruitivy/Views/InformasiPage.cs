@@ -10,10 +10,13 @@ namespace fruitivy
 {
     public partial class InformasiPage : Form
     {
-        public InformasiPage()
+        private int _penjualId;
+        private int PenjualId { get { return _penjualId; } set { _penjualId = value; } }
+        public InformasiPage(int id)
         {
             InitializeComponent();
             GenerateDynamicUserControl();
+            PenjualId = id;
         }
         private async Task<List<Information>> GetInfoList()
         {
@@ -56,6 +59,12 @@ namespace fruitivy
             InformationBox obj = (InformationBox)sender;
             DetailInformasi detailInformasi = new DetailInformasi(obj.Title, obj.Type, obj.Description);
             detailInformasi.Show();
-        }        
+        }
+
+        private void lblProduk_Click(object sender, EventArgs e)
+        {
+            ListItemPage listIP = new ListItemPage(PenjualId);
+            listIP.Show();
+        }
     }
 }

@@ -155,6 +155,7 @@
             this.tbPasswordLogin.Name = "tbPasswordLogin";
             this.tbPasswordLogin.Size = new System.Drawing.Size(227, 26);
             this.tbPasswordLogin.TabIndex = 6;
+            this.tbPasswordLogin.UseSystemPasswordChar = true;
             // 
             // label3
             // 

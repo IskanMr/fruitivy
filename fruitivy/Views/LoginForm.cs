@@ -13,9 +13,8 @@ namespace fruitivy
             InitializeComponent();                  
         }
 
-
         private NpgsqlConnection conn;
-        string connstring = "Host=localhost;Port=2022;Username=postgres;Password=informatika;Database=FruitivyTest2;";
+        string connstring = "Host=localhost;Port=5432;Username=postgres;Password=fishman14;Database=FruitivyTest2;";
         private string sqlQuery = "";
         public static NpgsqlCommand cmd;
 
