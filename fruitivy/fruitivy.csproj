@@ -167,6 +167,18 @@
     <Compile Include="Views\DetailInformasi.Designer.cs">
       <DependentUpon>DetailInformasi.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\EditBarang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\EditBarang.Designer.cs">
+      <DependentUpon>EditBarang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ForgotPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ForgotPassword.Designer.cs">
+      <DependentUpon>ForgotPassword.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\InformasiPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -194,8 +206,18 @@
     <Compile Include="Views\SignUpForm.Designer.cs">
       <DependentUpon>SignUpForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\TambahBarang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\TambahBarang.Designer.cs">
+      <DependentUpon>TambahBarang.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ForgotPassword.resx" />
     <EmbeddedResource Include="Views\DetailInformasi.resx">
       <DependentUpon>DetailInformasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\EditBarang.resx">
+      <DependentUpon>EditBarang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\InformasiPage.resx">
       <DependentUpon>InformasiPage.cs</DependentUpon>
@@ -218,6 +240,9 @@
     </Compile>
     <EmbeddedResource Include="Views\SignUpForm.resx">
       <DependentUpon>SignUpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\TambahBarang.resx">
+      <DependentUpon>TambahBarang.cs</DependentUpon>
     </EmbeddedResource>
     <None Include=".editorconfig" />
     <None Include="libmongocrypt.dylib" />
