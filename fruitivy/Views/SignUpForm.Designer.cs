@@ -27,159 +27,237 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.lblEmail = new System.Windows.Forms.Label();
-            this.tbEmail = new System.Windows.Forms.TextBox();
-            this.tbPassword = new System.Windows.Forms.TextBox();
-            this.lblPassword = new System.Windows.Forms.Label();
-            this.btnSignUp = new System.Windows.Forms.Button();
-            this.lblTextSU = new System.Windows.Forms.Label();
-            this.lbLogIn = new System.Windows.Forms.LinkLabel();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SignUpForm));
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.lblLogin = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tbUsernameSignUp = new System.Windows.Forms.Label();
+            this.tbEmailSignUp = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.rbPembeliLogin = new System.Windows.Forms.RadioButton();
+            this.rbPenjualLogin = new System.Windows.Forms.RadioButton();
+            this.label1 = new System.Windows.Forms.Label();
+            this.tbPasswordSignUp = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
+            // pictureBox1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Bahnschrift", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(138, 19);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(144, 45);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Sign up";
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(-1, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1023, 621);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 10;
+            this.pictureBox1.TabStop = false;
             // 
-            // lblEmail
+            // panel1
             // 
-            this.lblEmail.AutoSize = true;
-            this.lblEmail.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEmail.Location = new System.Drawing.Point(53, 90);
-            this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(51, 22);
-            this.lblEmail.TabIndex = 1;
-            this.lblEmail.Text = "Email";
+            this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.panel1.Controls.Add(this.tbPasswordSignUp);
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.label7);
+            this.panel1.Controls.Add(this.label6);
+            this.panel1.Controls.Add(this.lblLogin);
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.tbUsernameSignUp);
+            this.panel1.Controls.Add(this.tbEmailSignUp);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.rbPembeliLogin);
+            this.panel1.Controls.Add(this.rbPenjualLogin);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Location = new System.Drawing.Point(313, 36);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(395, 548);
+            this.panel1.TabIndex = 11;
             // 
-            // tbEmail
+            // label7
             // 
-            this.tbEmail.BackColor = System.Drawing.SystemColors.Control;
-            this.tbEmail.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbEmail.Location = new System.Drawing.Point(57, 115);
-            this.tbEmail.Margin = new System.Windows.Forms.Padding(0);
-            this.tbEmail.Name = "tbEmail";
-            this.tbEmail.Size = new System.Drawing.Size(317, 29);
-            this.tbEmail.TabIndex = 2;
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(51, 90);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(155, 23);
+            this.label7.TabIndex = 11;
+            this.label7.Text = "Daftar sebagai";
             // 
-            // tbPassword
+            // label6
             // 
-            this.tbPassword.BackColor = System.Drawing.SystemColors.Control;
-            this.tbPassword.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbPassword.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.tbPassword.Location = new System.Drawing.Point(57, 250);
-            this.tbPassword.Name = "tbPassword";
-            this.tbPassword.Size = new System.Drawing.Size(317, 29);
-            this.tbPassword.TabIndex = 4;
-            this.tbPassword.UseSystemPasswordChar = true;
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label6.Location = new System.Drawing.Point(79, 486);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(189, 20);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "Sudah memiliki akun?";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
-            // lblPassword
+            // lblLogin
             // 
-            this.lblPassword.AutoSize = true;
-            this.lblPassword.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPassword.Location = new System.Drawing.Point(53, 225);
-            this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(84, 22);
-            this.lblPassword.TabIndex = 3;
-            this.lblPassword.Text = "Password";
+            this.lblLogin.AutoSize = true;
+            this.lblLogin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblLogin.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLogin.ForeColor = System.Drawing.Color.DarkSeaGreen;
+            this.lblLogin.Location = new System.Drawing.Point(265, 486);
+            this.lblLogin.Name = "lblLogin";
+            this.lblLogin.Size = new System.Drawing.Size(55, 20);
+            this.lblLogin.TabIndex = 9;
+            this.lblLogin.Text = "Login";
+            this.lblLogin.Click += new System.EventHandler(this.label5_Click);
             // 
-            // btnSignUp
+            // button1
             // 
-            this.btnSignUp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(148)))), ((int)(((byte)(79)))));
-            this.btnSignUp.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSignUp.ForeColor = System.Drawing.Color.White;
-            this.btnSignUp.Location = new System.Drawing.Point(57, 336);
-            this.btnSignUp.Margin = new System.Windows.Forms.Padding(0);
-            this.btnSignUp.Name = "btnSignUp";
-            this.btnSignUp.Size = new System.Drawing.Size(317, 38);
-            this.btnSignUp.TabIndex = 6;
-            this.btnSignUp.Text = "Sign up";
-            this.btnSignUp.UseVisualStyleBackColor = false;
-            this.btnSignUp.Click += new System.EventHandler(this.btnSignUp_Click);
-            // 
-            // lblTextSU
-            // 
-            this.lblTextSU.AutoSize = true;
-            this.lblTextSU.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTextSU.Location = new System.Drawing.Point(86, 416);
-            this.lblTextSU.Name = "lblTextSU";
-            this.lblTextSU.Size = new System.Drawing.Size(187, 22);
-            this.lblTextSU.TabIndex = 7;
-            this.lblTextSU.Text = "Don\'t have an account?";
-            // 
-            // lbLogIn
-            // 
-            this.lbLogIn.AutoSize = true;
-            this.lbLogIn.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbLogIn.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(148)))), ((int)(((byte)(79)))));
-            this.lbLogIn.Location = new System.Drawing.Point(269, 416);
-            this.lbLogIn.Name = "lbLogIn";
-            this.lbLogIn.Size = new System.Drawing.Size(55, 22);
-            this.lbLogIn.TabIndex = 8;
-            this.lbLogIn.TabStop = true;
-            this.lbLogIn.Text = "Log in";
+            this.button1.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Location = new System.Drawing.Point(49, 430);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(308, 37);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Masuk";
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // textBox1
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox1.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(57, 182);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(0);
+            this.textBox1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textBox1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(53, 281);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(317, 29);
-            this.textBox1.TabIndex = 10;
+            this.textBox1.Size = new System.Drawing.Size(302, 31);
+            this.textBox1.TabIndex = 6;
+            // 
+            // tbUsernameSignUp
+            // 
+            this.tbUsernameSignUp.AutoSize = true;
+            this.tbUsernameSignUp.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbUsernameSignUp.Location = new System.Drawing.Point(49, 253);
+            this.tbUsernameSignUp.Name = "tbUsernameSignUp";
+            this.tbUsernameSignUp.Size = new System.Drawing.Size(111, 23);
+            this.tbUsernameSignUp.TabIndex = 5;
+            this.tbUsernameSignUp.Text = "Username";
+            // 
+            // tbEmailSignUp
+            // 
+            this.tbEmailSignUp.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.tbEmailSignUp.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tbEmailSignUp.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tbEmailSignUp.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbEmailSignUp.Location = new System.Drawing.Point(53, 203);
+            this.tbEmailSignUp.Name = "tbEmailSignUp";
+            this.tbEmailSignUp.Size = new System.Drawing.Size(302, 31);
+            this.tbEmailSignUp.TabIndex = 4;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(53, 157);
+            this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(49, 174);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 22);
-            this.label2.TabIndex = 9;
-            this.label2.Text = "Username";
+            this.label2.Size = new System.Drawing.Size(63, 23);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Email";
+            // 
+            // rbPembeliLogin
+            // 
+            this.rbPembeliLogin.AutoSize = true;
+            this.rbPembeliLogin.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbPembeliLogin.Location = new System.Drawing.Point(192, 127);
+            this.rbPembeliLogin.Name = "rbPembeliLogin";
+            this.rbPembeliLogin.Size = new System.Drawing.Size(109, 27);
+            this.rbPembeliLogin.TabIndex = 2;
+            this.rbPembeliLogin.TabStop = true;
+            this.rbPembeliLogin.Text = "Pembeli";
+            this.rbPembeliLogin.UseVisualStyleBackColor = true;
+            // 
+            // rbPenjualLogin
+            // 
+            this.rbPenjualLogin.AutoSize = true;
+            this.rbPenjualLogin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.rbPenjualLogin.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbPenjualLogin.Location = new System.Drawing.Point(56, 127);
+            this.rbPenjualLogin.Name = "rbPenjualLogin";
+            this.rbPenjualLogin.Size = new System.Drawing.Size(102, 27);
+            this.rbPenjualLogin.TabIndex = 1;
+            this.rbPenjualLogin.TabStop = true;
+            this.rbPenjualLogin.Text = "Penjual";
+            this.rbPenjualLogin.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(130, 19);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(143, 46);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Daftar";
+            // 
+            // tbPasswordSignUp
+            // 
+            this.tbPasswordSignUp.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.tbPasswordSignUp.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tbPasswordSignUp.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tbPasswordSignUp.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbPasswordSignUp.Location = new System.Drawing.Point(53, 360);
+            this.tbPasswordSignUp.Name = "tbPasswordSignUp";
+            this.tbPasswordSignUp.Size = new System.Drawing.Size(302, 31);
+            this.tbPasswordSignUp.TabIndex = 13;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(52, 334);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(116, 23);
+            this.label4.TabIndex = 12;
+            this.label4.Text = "Kata Sandi";
             // 
             // SignUpForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(439, 455);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.lbLogIn);
-            this.Controls.Add(this.lblTextSU);
-            this.Controls.Add(this.btnSignUp);
-            this.Controls.Add(this.tbPassword);
-            this.Controls.Add(this.lblPassword);
-            this.Controls.Add(this.tbEmail);
-            this.Controls.Add(this.lblEmail);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(1021, 620);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "SignUpForm";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label lblEmail;
-        private System.Windows.Forms.TextBox tbEmail;
-        private System.Windows.Forms.TextBox tbPassword;
-        private System.Windows.Forms.Label lblPassword;
-        private System.Windows.Forms.Button btnSignUp;
-        private System.Windows.Forms.Label lblTextSU;
-        private System.Windows.Forms.LinkLabel lbLogIn;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label lblLogin;
+        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label tbUsernameSignUp;
+        private System.Windows.Forms.TextBox tbEmailSignUp;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.RadioButton rbPembeliLogin;
+        private System.Windows.Forms.RadioButton rbPenjualLogin;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox tbPasswordSignUp;
     }
 }
