@@ -28,12 +28,13 @@ namespace fruitivy.Views
 
         private void lblEdit_Click(object sender, EventArgs e)
         {
-
+            EditBarang editB = new EditBarang(Id);
+            editB.Show();
         }
 
         private void lblHapus_Click(object sender, EventArgs e)
         {
-
+            //fungsi hapus
         }
     }
 }

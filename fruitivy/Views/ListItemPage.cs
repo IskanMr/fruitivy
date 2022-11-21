@@ -79,5 +79,11 @@ namespace fruitivy.Views
             conn = new NpgsqlConnection(connstring);
             GenerateDynamicUserControl();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            TambahBarang tambahB = new TambahBarang();
+            tambahB.Show();
+        }
     }
 }
