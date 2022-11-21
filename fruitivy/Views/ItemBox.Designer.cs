@@ -67,6 +67,7 @@
             // lblEdit
             // 
             this.lblEdit.AutoSize = true;
+            this.lblEdit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblEdit.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEdit.ForeColor = System.Drawing.Color.DarkGreen;
             this.lblEdit.Location = new System.Drawing.Point(572, 65);
@@ -79,6 +80,7 @@
             // lblHapus
             // 
             this.lblHapus.AutoSize = true;
+            this.lblHapus.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblHapus.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHapus.ForeColor = System.Drawing.Color.Red;
             this.lblHapus.Location = new System.Drawing.Point(640, 65);
@@ -100,6 +102,7 @@
             this.Controls.Add(this.pbItem);
             this.Name = "ItemBox";
             this.Size = new System.Drawing.Size(738, 150);
+            this.Load += new System.EventHandler(this.ItemBox_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbItem)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

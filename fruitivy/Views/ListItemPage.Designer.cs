@@ -82,6 +82,7 @@
             this.lblInformasi.Size = new System.Drawing.Size(77, 17);
             this.lblInformasi.TabIndex = 1;
             this.lblInformasi.Text = "Informasi";
+            this.lblInformasi.Click += new System.EventHandler(this.lblInformasi_Click);
             // 
             // label1
             // 

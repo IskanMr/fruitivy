@@ -13,9 +13,13 @@ namespace fruitivy.Views
 {
     public partial class TambahBarang : Form
     {
-        public TambahBarang()
+
+        private int _penjualId;
+        private int PenjualId { get { return _penjualId; } set { _penjualId = value; } }
+        public TambahBarang(int id)
         {
             InitializeComponent();
+            PenjualId = id;
         }
 
 
@@ -35,11 +39,11 @@ namespace fruitivy.Views
                 cmd.Parameters.AddWithValue("_nama", tbTambahNamaProduk.Text);
                 cmd.Parameters.AddWithValue("_harga", int.Parse(tbTambahHargaProduk.Text));
                 cmd.Parameters.AddWithValue("_deskripsi", tbTambahDeskripsiProduk.Text);
-                cmd.Parameters.AddWithValue("_penggunaid", int.Parse(tbTambahPenggunaID.Text));
+                cmd.Parameters.AddWithValue("_penggunaid", int.Parse(PenjualId.ToString()));
 
                 if ((int)cmd.ExecuteScalar() == 1)
                 {
-                    ListItemPage listItemDijual = new ListItemPage(Convert.ToInt32(tbTambahPenggunaID.Text));
+                    ListItemPage listItemDijual = new ListItemPage(PenjualId);
                     listItemDijual.Show();
                     this.Hide();
                     MessageBox.Show("Produk berhasil ditambahkan!");

@@ -14,7 +14,6 @@ namespace fruitivy.Views
 {
     public partial class ListItemPage : Form
     {
-
         private int _penjualId;
         private int PenjualId { get { return _penjualId; }set { _penjualId = value; } }
         List<Produk> listItem = new List<Produk>();
@@ -57,7 +56,7 @@ namespace fruitivy.Views
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error:" + ex.Message, "Produk gagal ditambahkan!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Error:" + ex.Message, "!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
             ItemBox[] listItems = new ItemBox[listItem.Count()];
@@ -69,6 +68,7 @@ namespace fruitivy.Views
                 listItems[i].Nama = listItem[i].Nama;
                 listItems[i].Harga = listItem[i].Harga;
                 listItems[i].Id = listItem[i].Id;
+                listItems[i].IdPenjual = PenjualId;
 
                 flowLayoutPanel1.Controls.Add(listItems[i]);
             }
@@ -82,8 +82,15 @@ namespace fruitivy.Views
 
         private void button1_Click(object sender, EventArgs e)
         {
-            TambahBarang tambahB = new TambahBarang();
+            TambahBarang tambahB = new TambahBarang(PenjualId);
             tambahB.Show();
+            this.Hide();
+        }
+
+        private void lblInformasi_Click(object sender, EventArgs e)
+        {
+            InformasiPage infoPage = new InformasiPage(PenjualId);
+            infoPage.Show();
         }
     }
 }
