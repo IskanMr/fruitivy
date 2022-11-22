@@ -36,30 +36,31 @@
             // lblInfoTitle
             // 
             this.lblInfoTitle.AutoSize = true;
-            this.lblInfoTitle.Font = new System.Drawing.Font("Montserrat SemiBold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInfoTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblInfoTitle.Location = new System.Drawing.Point(27, 24);
             this.lblInfoTitle.Name = "lblInfoTitle";
-            this.lblInfoTitle.Size = new System.Drawing.Size(77, 37);
+            this.lblInfoTitle.Size = new System.Drawing.Size(71, 31);
             this.lblInfoTitle.TabIndex = 0;
             this.lblInfoTitle.Text = "Title";
             // 
             // lblInfoType
             // 
             this.lblInfoType.AutoSize = true;
-            this.lblInfoType.Font = new System.Drawing.Font("Montserrat", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInfoType.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblInfoType.Location = new System.Drawing.Point(31, 61);
             this.lblInfoType.Name = "lblInfoType";
-            this.lblInfoType.Size = new System.Drawing.Size(41, 18);
+            this.lblInfoType.Size = new System.Drawing.Size(43, 16);
             this.lblInfoType.TabIndex = 1;
             this.lblInfoType.Text = "Type";
             // 
             // lblInfoDescription
             // 
             this.lblInfoDescription.AutoSize = true;
-            this.lblInfoDescription.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInfoDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblInfoDescription.Location = new System.Drawing.Point(30, 108);
+            this.lblInfoDescription.MaximumSize = new System.Drawing.Size(1420, 0);
             this.lblInfoDescription.Name = "lblInfoDescription";
-            this.lblInfoDescription.Size = new System.Drawing.Size(103, 22);
+            this.lblInfoDescription.Size = new System.Drawing.Size(89, 20);
             this.lblInfoDescription.TabIndex = 2;
             this.lblInfoDescription.Text = "Description";
             // 
@@ -67,6 +68,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1446, 636);
             this.Controls.Add(this.lblInfoDescription);
             this.Controls.Add(this.lblInfoType);

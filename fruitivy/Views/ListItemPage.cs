@@ -91,6 +91,7 @@ namespace fruitivy.Views
         {
             InformasiPage infoPage = new InformasiPage(PenjualId);
             infoPage.Show();
+            this.Hide();
         }
 
         private void label2_Click(object sender, EventArgs e)

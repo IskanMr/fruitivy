@@ -65,6 +65,7 @@ namespace fruitivy
         {
             ListItemPage listIP = new ListItemPage(PenjualId);
             listIP.Show();
+            this.Hide();
         }
 
         private void label2_Click_1(object sender, EventArgs e)

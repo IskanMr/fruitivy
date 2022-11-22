@@ -3,11 +3,13 @@ using System;
 using Npgsql;
 using System.Windows.Forms;
 using fruitivy.Views;
+using System.Data;
 
 namespace fruitivy
 {
     public partial class LoginForm : Form
     {
+        private int id { get; set; }
         public LoginForm()
         {
             InitializeComponent();                  
@@ -55,15 +57,29 @@ namespace fruitivy
                 cmd.Parameters.AddWithValue("_password", tbPasswordLogin.Text);
                 cmd.Parameters.AddWithValue("_roleid", roleId);
 
-                if ((int)cmd.ExecuteScalar() != 0)
+                NpgsqlDataReader rd = cmd.ExecuteReader();
+
+                if (rd.HasRows)
                 {
-                    ListItemPage listItemUser = new ListItemPage((int)cmd.ExecuteScalar());
+                    while (rd.Read())
+                    {
+                        id = Convert.ToInt32(rd[0]);
+                    }
+                }
+
+
+                if (id != 0)
+                {
+                    ListItemPage listItemUser = new ListItemPage(id);
                     listItemUser.Show();
                     this.Hide();
                     MessageBox.Show("Login berhasil!");
                 }
                 else
                 {
+                    LoginForm log = new LoginForm();
+                    log.Show();
+                    this.Hide();
                     MessageBox.Show("Username dan/atau Password serta/atau role tidak valid!", "Login Gagal!", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
 
@@ -71,6 +87,10 @@ namespace fruitivy
             }
             catch (Exception ex)
             {
+                LoginForm log = new LoginForm();
+                log.Show();
+                this.Hide();
+                conn.Close();
                 MessageBox.Show("Error:" + ex.Message, "Login Gagal!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
