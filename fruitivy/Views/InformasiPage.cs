@@ -66,5 +66,12 @@ namespace fruitivy
             ListItemPage listIP = new ListItemPage(PenjualId);
             listIP.Show();
         }
+
+        private void label2_Click_1(object sender, EventArgs e)
+        {
+            LoginForm login = new LoginForm();
+            login.Show();
+            this.Hide();
+        }
     }
 }

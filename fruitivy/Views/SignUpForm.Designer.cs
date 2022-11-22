@@ -91,6 +91,7 @@
             this.tbPasswordSignUp.Name = "tbPasswordSignUp";
             this.tbPasswordSignUp.Size = new System.Drawing.Size(227, 26);
             this.tbPasswordSignUp.TabIndex = 13;
+            this.tbPasswordSignUp.UseSystemPasswordChar = true;
             // 
             // label4
             // 

@@ -38,11 +38,6 @@
             this.tbTambahDeskripsiProduk = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.btnUnggah = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.lblProduk = new System.Windows.Forms.Label();
-            this.lblInformasi = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label4
@@ -50,7 +45,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label4.Location = new System.Drawing.Point(28, 67);
+            this.label4.Location = new System.Drawing.Point(309, 22);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(155, 22);
@@ -62,7 +57,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label6.Location = new System.Drawing.Point(31, 100);
+            this.label6.Location = new System.Drawing.Point(33, 65);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(143, 18);
@@ -73,7 +68,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(30, 104);
+            this.label7.Location = new System.Drawing.Point(32, 69);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(765, 20);
@@ -85,7 +80,7 @@
             // 
             this.tbTambahNamaProduk.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tbTambahNamaProduk.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbTambahNamaProduk.Location = new System.Drawing.Point(184, 140);
+            this.tbTambahNamaProduk.Location = new System.Drawing.Point(186, 105);
             this.tbTambahNamaProduk.Margin = new System.Windows.Forms.Padding(2);
             this.tbTambahNamaProduk.Name = "tbTambahNamaProduk";
             this.tbTambahNamaProduk.Size = new System.Drawing.Size(548, 24);
@@ -96,7 +91,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label8.Location = new System.Drawing.Point(31, 142);
+            this.label8.Location = new System.Drawing.Point(33, 107);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(107, 17);
@@ -107,7 +102,7 @@
             // 
             this.tbTambahHargaProduk.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tbTambahHargaProduk.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbTambahHargaProduk.Location = new System.Drawing.Point(184, 184);
+            this.tbTambahHargaProduk.Location = new System.Drawing.Point(186, 149);
             this.tbTambahHargaProduk.Margin = new System.Windows.Forms.Padding(2);
             this.tbTambahHargaProduk.Name = "tbTambahHargaProduk";
             this.tbTambahHargaProduk.Size = new System.Drawing.Size(548, 24);
@@ -118,7 +113,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label9.Location = new System.Drawing.Point(31, 185);
+            this.label9.Location = new System.Drawing.Point(33, 150);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(109, 17);
@@ -129,7 +124,7 @@
             // 
             this.tbTambahDeskripsiProduk.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tbTambahDeskripsiProduk.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbTambahDeskripsiProduk.Location = new System.Drawing.Point(184, 229);
+            this.tbTambahDeskripsiProduk.Location = new System.Drawing.Point(186, 194);
             this.tbTambahDeskripsiProduk.Margin = new System.Windows.Forms.Padding(2);
             this.tbTambahDeskripsiProduk.Multiline = true;
             this.tbTambahDeskripsiProduk.Name = "tbTambahDeskripsiProduk";
@@ -141,7 +136,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label10.Location = new System.Drawing.Point(31, 230);
+            this.label10.Location = new System.Drawing.Point(33, 195);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(133, 17);
@@ -154,7 +149,7 @@
             this.btnUnggah.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnUnggah.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUnggah.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnUnggah.Location = new System.Drawing.Point(603, 387);
+            this.btnUnggah.Location = new System.Drawing.Point(605, 352);
             this.btnUnggah.Margin = new System.Windows.Forms.Padding(2);
             this.btnUnggah.Name = "btnUnggah";
             this.btnUnggah.Size = new System.Drawing.Size(123, 31);
@@ -163,63 +158,11 @@
             this.btnUnggah.UseVisualStyleBackColor = false;
             this.btnUnggah.Click += new System.EventHandler(this.btnUnggah_Click);
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.panel1.Controls.Add(this.lblProduk);
-            this.panel1.Controls.Add(this.lblInformasi);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(766, 46);
-            this.panel1.TabIndex = 15;
-            // 
-            // lblProduk
-            // 
-            this.lblProduk.AutoSize = true;
-            this.lblProduk.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblProduk.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblProduk.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblProduk.Location = new System.Drawing.Point(691, 15);
-            this.lblProduk.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblProduk.Name = "lblProduk";
-            this.lblProduk.Size = new System.Drawing.Size(61, 17);
-            this.lblProduk.TabIndex = 2;
-            this.lblProduk.Text = "Produk";
-            // 
-            // lblInformasi
-            // 
-            this.lblInformasi.AutoSize = true;
-            this.lblInformasi.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblInformasi.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblInformasi.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblInformasi.Location = new System.Drawing.Point(602, 15);
-            this.lblInformasi.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblInformasi.Name = "lblInformasi";
-            this.lblInformasi.Size = new System.Drawing.Size(77, 17);
-            this.lblInformasi.TabIndex = 1;
-            this.lblInformasi.Text = "Informasi";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(10, 7);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(112, 32);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Fruitivy";
-            // 
             // TambahBarang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(766, 445);
-            this.Controls.Add(this.panel1);
+            this.ClientSize = new System.Drawing.Size(766, 403);
             this.Controls.Add(this.btnUnggah);
             this.Controls.Add(this.tbTambahDeskripsiProduk);
             this.Controls.Add(this.label10);
@@ -234,8 +177,6 @@
             this.Name = "TambahBarang";
             this.Text = "TambahBarang";
             this.Load += new System.EventHandler(this.TambahBarang_Load_1);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -252,9 +193,5 @@
         private System.Windows.Forms.TextBox tbTambahDeskripsiProduk;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button btnUnggah;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label lblProduk;
-        private System.Windows.Forms.Label lblInformasi;
-        private System.Windows.Forms.Label label1;
     }
 }

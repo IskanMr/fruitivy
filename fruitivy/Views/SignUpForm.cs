@@ -66,5 +66,6 @@ namespace fruitivy
         {
             conn = new NpgsqlConnection(connstring);
         }
+
     }
 }

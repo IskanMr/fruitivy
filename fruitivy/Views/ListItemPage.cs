@@ -92,5 +92,12 @@ namespace fruitivy.Views
             InformasiPage infoPage = new InformasiPage(PenjualId);
             infoPage.Show();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            LoginForm login = new LoginForm();
+            login.Show();
+            this.Hide();
+        }
     }
 }

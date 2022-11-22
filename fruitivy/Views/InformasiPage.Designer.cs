@@ -33,6 +33,7 @@
             this.lblProduk = new System.Windows.Forms.Label();
             this.lblInformasi = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,6 +47,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.lblProduk);
             this.panel1.Controls.Add(this.lblInformasi);
             this.panel1.Controls.Add(this.label1);
@@ -62,7 +64,7 @@
             this.lblProduk.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblProduk.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblProduk.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblProduk.Location = new System.Drawing.Point(1374, 19);
+            this.lblProduk.Location = new System.Drawing.Point(1306, 19);
             this.lblProduk.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblProduk.Name = "lblProduk";
             this.lblProduk.Size = new System.Drawing.Size(61, 17);
@@ -76,7 +78,7 @@
             this.lblInformasi.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblInformasi.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblInformasi.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblInformasi.Location = new System.Drawing.Point(1285, 19);
+            this.lblInformasi.Location = new System.Drawing.Point(1217, 19);
             this.lblInformasi.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblInformasi.Name = "lblInformasi";
             this.lblInformasi.Size = new System.Drawing.Size(77, 17);
@@ -94,6 +96,20 @@
             this.label1.Size = new System.Drawing.Size(112, 32);
             this.label1.TabIndex = 0;
             this.label1.Text = "Fruitivy";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label2.Location = new System.Drawing.Point(1374, 19);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(57, 17);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Keluar";
+            this.label2.Click += new System.EventHandler(this.label2_Click_1);
             // 
             // InformasiPage
             // 
@@ -117,5 +133,6 @@
         private System.Windows.Forms.Label lblProduk;
         private System.Windows.Forms.Label lblInformasi;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
