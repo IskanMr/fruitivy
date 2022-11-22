@@ -34,7 +34,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.lblDaftar = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnLogin = new System.Windows.Forms.Button();
             this.lblForgotPass = new System.Windows.Forms.Label();
             this.tbPasswordLogin = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -64,7 +64,7 @@
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.lblDaftar);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.btnLogin);
             this.panel1.Controls.Add(this.lblForgotPass);
             this.panel1.Controls.Add(this.tbPasswordLogin);
             this.panel1.Controls.Add(this.label3);
@@ -108,7 +108,7 @@
             this.lblDaftar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblDaftar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDaftar.ForeColor = System.Drawing.Color.DarkSeaGreen;
-            this.lblDaftar.Location = new System.Drawing.Point(195, 395);
+            this.lblDaftar.Location = new System.Drawing.Point(206, 395);
             this.lblDaftar.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDaftar.Name = "lblDaftar";
             this.lblDaftar.Size = new System.Drawing.Size(49, 16);
@@ -116,19 +116,20 @@
             this.lblDaftar.Text = "Daftar";
             this.lblDaftar.Click += new System.EventHandler(this.lblDaftar_Click_1);
             // 
-            // button1
+            // btnLogin
             // 
-            this.button1.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(35, 342);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(231, 30);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Masuk";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnLogin.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLogin.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnLogin.Location = new System.Drawing.Point(35, 342);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(2);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(231, 30);
+            this.btnLogin.TabIndex = 8;
+            this.btnLogin.Text = "Masuk";
+            this.btnLogin.UseVisualStyleBackColor = false;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // lblForgotPass
             // 
@@ -253,7 +254,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Label lblForgotPass;
         private System.Windows.Forms.TextBox tbPasswordLogin;
         private System.Windows.Forms.Label label3;

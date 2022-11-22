@@ -256,6 +256,9 @@
     <EmbeddedResource Include="Views\EditBarang.resx">
       <DependentUpon>EditBarang.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\ForgotPassword.resx">
+      <DependentUpon>ForgotPassword.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\InformasiPage.resx">
       <DependentUpon>InformasiPage.cs</DependentUpon>
     </EmbeddedResource>

@@ -196,3 +196,4 @@ E:\Iskan\code\fruitivy\obj\Debug\fruitivy.Views.EditBarang.resources
 E:\Iskan\code\fruitivy\obj\Debug\fruitivy.Views.ItemBox.resources
 E:\Iskan\code\fruitivy\obj\Debug\fruitivy.Views.ListItemPage.resources
 E:\Iskan\code\fruitivy\obj\Debug\fruitivy.Views.TambahBarang.resources
+D:\Code\fruitivy\fruitivy\obj\Debug\fruitivy.Views.ForgotPassword.resources

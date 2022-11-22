@@ -36,12 +36,12 @@
             this.label6 = new System.Windows.Forms.Label();
             this.lblLogin = new System.Windows.Forms.Label();
             this.btnMasuk = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.tbUsernameSignUp = new System.Windows.Forms.Label();
+            this.tbUsernameSignUp = new System.Windows.Forms.TextBox();
+            this.lblUsername = new System.Windows.Forms.Label();
             this.tbEmailSignUp = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.rbPembeliLogin = new System.Windows.Forms.RadioButton();
-            this.rbPenjualLogin = new System.Windows.Forms.RadioButton();
+            this.rbPembeliSignUp = new System.Windows.Forms.RadioButton();
+            this.rbPenjualSignUp = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -67,12 +67,12 @@
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.lblLogin);
             this.panel1.Controls.Add(this.btnMasuk);
-            this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.tbUsernameSignUp);
+            this.panel1.Controls.Add(this.lblUsername);
             this.panel1.Controls.Add(this.tbEmailSignUp);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.rbPembeliLogin);
-            this.panel1.Controls.Add(this.rbPenjualLogin);
+            this.panel1.Controls.Add(this.rbPembeliSignUp);
+            this.panel1.Controls.Add(this.rbPenjualSignUp);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(235, 29);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
@@ -151,32 +151,32 @@
             this.btnMasuk.Name = "btnMasuk";
             this.btnMasuk.Size = new System.Drawing.Size(231, 30);
             this.btnMasuk.TabIndex = 8;
-            this.btnMasuk.Text = "Masuk";
+            this.btnMasuk.Text = "Daftar";
             this.btnMasuk.UseVisualStyleBackColor = false;
             this.btnMasuk.Click += new System.EventHandler(this.btnMasuk_Click);
             // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.textBox1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(40, 228);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(227, 26);
-            this.textBox1.TabIndex = 6;
-            // 
             // tbUsernameSignUp
             // 
-            this.tbUsernameSignUp.AutoSize = true;
+            this.tbUsernameSignUp.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.tbUsernameSignUp.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tbUsernameSignUp.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tbUsernameSignUp.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbUsernameSignUp.Location = new System.Drawing.Point(37, 206);
-            this.tbUsernameSignUp.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.tbUsernameSignUp.Location = new System.Drawing.Point(40, 228);
+            this.tbUsernameSignUp.Margin = new System.Windows.Forms.Padding(2);
             this.tbUsernameSignUp.Name = "tbUsernameSignUp";
-            this.tbUsernameSignUp.Size = new System.Drawing.Size(90, 18);
-            this.tbUsernameSignUp.TabIndex = 5;
-            this.tbUsernameSignUp.Text = "Username";
+            this.tbUsernameSignUp.Size = new System.Drawing.Size(227, 26);
+            this.tbUsernameSignUp.TabIndex = 6;
+            // 
+            // lblUsername
+            // 
+            this.lblUsername.AutoSize = true;
+            this.lblUsername.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsername.Location = new System.Drawing.Point(37, 206);
+            this.lblUsername.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblUsername.Name = "lblUsername";
+            this.lblUsername.Size = new System.Drawing.Size(90, 18);
+            this.lblUsername.TabIndex = 5;
+            this.lblUsername.Text = "Username";
             // 
             // tbEmailSignUp
             // 
@@ -201,32 +201,32 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Email";
             // 
-            // rbPembeliLogin
+            // rbPembeliSignUp
             // 
-            this.rbPembeliLogin.AutoSize = true;
-            this.rbPembeliLogin.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbPembeliLogin.Location = new System.Drawing.Point(144, 103);
-            this.rbPembeliLogin.Margin = new System.Windows.Forms.Padding(2);
-            this.rbPembeliLogin.Name = "rbPembeliLogin";
-            this.rbPembeliLogin.Size = new System.Drawing.Size(89, 22);
-            this.rbPembeliLogin.TabIndex = 2;
-            this.rbPembeliLogin.TabStop = true;
-            this.rbPembeliLogin.Text = "Pembeli";
-            this.rbPembeliLogin.UseVisualStyleBackColor = true;
+            this.rbPembeliSignUp.AutoSize = true;
+            this.rbPembeliSignUp.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbPembeliSignUp.Location = new System.Drawing.Point(144, 103);
+            this.rbPembeliSignUp.Margin = new System.Windows.Forms.Padding(2);
+            this.rbPembeliSignUp.Name = "rbPembeliSignUp";
+            this.rbPembeliSignUp.Size = new System.Drawing.Size(89, 22);
+            this.rbPembeliSignUp.TabIndex = 2;
+            this.rbPembeliSignUp.TabStop = true;
+            this.rbPembeliSignUp.Text = "Pembeli";
+            this.rbPembeliSignUp.UseVisualStyleBackColor = true;
             // 
-            // rbPenjualLogin
+            // rbPenjualSignUp
             // 
-            this.rbPenjualLogin.AutoSize = true;
-            this.rbPenjualLogin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rbPenjualLogin.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbPenjualLogin.Location = new System.Drawing.Point(42, 103);
-            this.rbPenjualLogin.Margin = new System.Windows.Forms.Padding(2);
-            this.rbPenjualLogin.Name = "rbPenjualLogin";
-            this.rbPenjualLogin.Size = new System.Drawing.Size(85, 22);
-            this.rbPenjualLogin.TabIndex = 1;
-            this.rbPenjualLogin.TabStop = true;
-            this.rbPenjualLogin.Text = "Penjual";
-            this.rbPenjualLogin.UseVisualStyleBackColor = true;
+            this.rbPenjualSignUp.AutoSize = true;
+            this.rbPenjualSignUp.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.rbPenjualSignUp.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbPenjualSignUp.Location = new System.Drawing.Point(42, 103);
+            this.rbPenjualSignUp.Margin = new System.Windows.Forms.Padding(2);
+            this.rbPenjualSignUp.Name = "rbPenjualSignUp";
+            this.rbPenjualSignUp.Size = new System.Drawing.Size(85, 22);
+            this.rbPenjualSignUp.TabIndex = 1;
+            this.rbPenjualSignUp.TabStop = true;
+            this.rbPenjualSignUp.Text = "Penjual";
+            this.rbPenjualSignUp.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -249,6 +249,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "SignUpForm";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.SignUpForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -265,12 +266,12 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label lblLogin;
         private System.Windows.Forms.Button btnMasuk;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label tbUsernameSignUp;
+        private System.Windows.Forms.TextBox tbUsernameSignUp;
+        private System.Windows.Forms.Label lblUsername;
         private System.Windows.Forms.TextBox tbEmailSignUp;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.RadioButton rbPembeliLogin;
-        private System.Windows.Forms.RadioButton rbPenjualLogin;
+        private System.Windows.Forms.RadioButton rbPembeliSignUp;
+        private System.Windows.Forms.RadioButton rbPenjualSignUp;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox tbPasswordSignUp;
     }
